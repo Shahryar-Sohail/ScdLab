@@ -1,0 +1,73 @@
+C:\Users\HP\source\repos\SGS\SGS\bin\Debug\Database1.mdf
+C:\Users\HP\source\repos\SGS\SGS\bin\Debug\Database1_log.ldf
+C:\Users\HP\source\repos\SGS\SGS\bin\Debug\SGS.exe.config
+C:\Users\HP\source\repos\SGS\SGS\bin\Debug\SGS.exe
+C:\Users\HP\source\repos\SGS\SGS\bin\Debug\SGS.pdb
+C:\Users\HP\source\repos\SGS\SGS\obj\Debug\SGS.csproj.AssemblyReference.cache
+C:\Users\HP\source\repos\SGS\SGS\obj\Debug\SGS.LoginForm.resources
+C:\Users\HP\source\repos\SGS\SGS\obj\Debug\SGS.Properties.Resources.resources
+C:\Users\HP\source\repos\SGS\SGS\obj\Debug\SGS.csproj.GenerateResource.cache
+C:\Users\HP\source\repos\SGS\SGS\obj\Debug\SGS.csproj.CoreCompileInputs.cache
+C:\Users\HP\source\repos\SGS\SGS\obj\Debug\SGS.exe
+C:\Users\HP\source\repos\SGS\SGS\obj\Debug\SGS.pdb
+C:\Users\HP\source\repos\SGS\SGS\obj\Debug\SGS.GUI.StudentMainForm.resources
+C:\Users\HP\source\repos\SGS\SGS\obj\Debug\SGS.GUI.TeacherAssesmentDetailForm.resources
+C:\Users\HP\source\repos\SGS\SGS\obj\Debug\SGS.GUI.TeacherAssessmentForm.resources
+C:\Users\HP\source\repos\SGS\SGS\obj\Debug\SGS.GUI.TeacherMainForm.resources
+C:\Users\HP\source\repos\SGS\SGS\obj\Debug\SGS.GUI.TeacherCalculateGrade.resources
+C:\Users\HP\source\repos\SGS\SGS\obj\Debug\SGS.GUI.StudentCorsesForm.resources
+C:\Users\HP\source\repos\SGS\SGS\obj\Debug\SGS.GUI.StudentTranscriiptForm.resources
+C:\Users\HP\source\repos\SGS\SGS\obj\Debug\SGS.GUI.AdminMainForm.resources
+C:\Users\HP\source\repos\SGS\SGS\obj\Debug\SGS.GUI.WrongForm.resources
+C:\Users\HP\source\repos\SGS\SGS\obj\Debug\SGS.GUI.AdminRegisterCourse.resources
+C:\Users\HP\source\repos\SGS\SGS\obj\Debug\SGS.GUI.AdminRegisterUser.resources
+C:\Users\HP\source\repos\SGS\SGS\obj\Debug\SGS.GUI.StudentCourseAssessment.resources
+C:\Users\ssm15\source\repos\SGS[1]_1\SGS\SGS\bin\Debug\Database1.mdf
+C:\Users\ssm15\source\repos\SGS[1]_1\SGS\SGS\bin\Debug\Database1_log.ldf
+C:\Users\ssm15\source\repos\SGS[1]_1\SGS\SGS\bin\Debug\SGS.exe.config
+C:\Users\ssm15\source\repos\SGS[1]_1\SGS\SGS\bin\Debug\SGS.exe
+C:\Users\ssm15\source\repos\SGS[1]_1\SGS\SGS\bin\Debug\SGS.pdb
+C:\Users\ssm15\source\repos\SGS[1]_1\SGS\SGS\obj\Debug\SGS.csproj.AssemblyReference.cache
+C:\Users\ssm15\source\repos\SGS[1]_1\SGS\SGS\obj\Debug\SGS.exe.config
+C:\Users\ssm15\source\repos\SGS[1]_1\SGS\SGS\obj\Debug\SGS.GUI.AdminMainForm.resources
+C:\Users\ssm15\source\repos\SGS[1]_1\SGS\SGS\obj\Debug\SGS.GUI.AdminRegisterCourse.resources
+C:\Users\ssm15\source\repos\SGS[1]_1\SGS\SGS\obj\Debug\SGS.GUI.AdminRegisterUser.resources
+C:\Users\ssm15\source\repos\SGS[1]_1\SGS\SGS\obj\Debug\SGS.LoginForm.resources
+C:\Users\ssm15\source\repos\SGS[1]_1\SGS\SGS\obj\Debug\SGS.GUI.StudentCorsesForm.resources
+C:\Users\ssm15\source\repos\SGS[1]_1\SGS\SGS\obj\Debug\SGS.GUI.StudentCourseAssessment.resources
+C:\Users\ssm15\source\repos\SGS[1]_1\SGS\SGS\obj\Debug\SGS.GUI.StudentMainForm.resources
+C:\Users\ssm15\source\repos\SGS[1]_1\SGS\SGS\obj\Debug\SGS.GUI.StudentTranscriiptForm.resources
+C:\Users\ssm15\source\repos\SGS[1]_1\SGS\SGS\obj\Debug\SGS.GUI.TeacherAssesmentDetailForm.resources
+C:\Users\ssm15\source\repos\SGS[1]_1\SGS\SGS\obj\Debug\SGS.GUI.TeacherAssessmentForm.resources
+C:\Users\ssm15\source\repos\SGS[1]_1\SGS\SGS\obj\Debug\SGS.GUI.TeacherCalculateGrade.resources
+C:\Users\ssm15\source\repos\SGS[1]_1\SGS\SGS\obj\Debug\SGS.GUI.TeacherMainForm.resources
+C:\Users\ssm15\source\repos\SGS[1]_1\SGS\SGS\obj\Debug\SGS.GUI.WrongForm.resources
+C:\Users\ssm15\source\repos\SGS[1]_1\SGS\SGS\obj\Debug\SGS.Properties.Resources.resources
+C:\Users\ssm15\source\repos\SGS[1]_1\SGS\SGS\obj\Debug\SGS.csproj.GenerateResource.cache
+C:\Users\ssm15\source\repos\SGS[1]_1\SGS\SGS\obj\Debug\SGS.csproj.CoreCompileInputs.cache
+C:\Users\ssm15\source\repos\SGS[1]_1\SGS\SGS\obj\Debug\SGS.exe
+C:\Users\ssm15\source\repos\SGS[1]_1\SGS\SGS\obj\Debug\SGS.pdb
+D:\University Files\6th Semester\5- SCD Lab\Project\Complete Project\SGS\SGS\bin\Debug\Database1.mdf
+D:\University Files\6th Semester\5- SCD Lab\Project\Complete Project\SGS\SGS\bin\Debug\Database1_log.ldf
+D:\University Files\6th Semester\5- SCD Lab\Project\Complete Project\SGS\SGS\bin\Debug\SGS.exe.config
+D:\University Files\6th Semester\5- SCD Lab\Project\Complete Project\SGS\SGS\bin\Debug\SGS.exe
+D:\University Files\6th Semester\5- SCD Lab\Project\Complete Project\SGS\SGS\bin\Debug\SGS.pdb
+D:\University Files\6th Semester\5- SCD Lab\Project\Complete Project\SGS\SGS\obj\Debug\SGS.csproj.AssemblyReference.cache
+D:\University Files\6th Semester\5- SCD Lab\Project\Complete Project\SGS\SGS\obj\Debug\SGS.GUI.AdminMainForm.resources
+D:\University Files\6th Semester\5- SCD Lab\Project\Complete Project\SGS\SGS\obj\Debug\SGS.GUI.AdminRegisterCourse.resources
+D:\University Files\6th Semester\5- SCD Lab\Project\Complete Project\SGS\SGS\obj\Debug\SGS.GUI.AdminRegisterUser.resources
+D:\University Files\6th Semester\5- SCD Lab\Project\Complete Project\SGS\SGS\obj\Debug\SGS.LoginForm.resources
+D:\University Files\6th Semester\5- SCD Lab\Project\Complete Project\SGS\SGS\obj\Debug\SGS.GUI.StudentCorsesForm.resources
+D:\University Files\6th Semester\5- SCD Lab\Project\Complete Project\SGS\SGS\obj\Debug\SGS.GUI.StudentCourseAssessment.resources
+D:\University Files\6th Semester\5- SCD Lab\Project\Complete Project\SGS\SGS\obj\Debug\SGS.GUI.StudentMainForm.resources
+D:\University Files\6th Semester\5- SCD Lab\Project\Complete Project\SGS\SGS\obj\Debug\SGS.GUI.StudentTranscriiptForm.resources
+D:\University Files\6th Semester\5- SCD Lab\Project\Complete Project\SGS\SGS\obj\Debug\SGS.GUI.TeacherAssesmentDetailForm.resources
+D:\University Files\6th Semester\5- SCD Lab\Project\Complete Project\SGS\SGS\obj\Debug\SGS.GUI.TeacherAssessmentForm.resources
+D:\University Files\6th Semester\5- SCD Lab\Project\Complete Project\SGS\SGS\obj\Debug\SGS.GUI.TeacherCalculateGrade.resources
+D:\University Files\6th Semester\5- SCD Lab\Project\Complete Project\SGS\SGS\obj\Debug\SGS.GUI.TeacherMainForm.resources
+D:\University Files\6th Semester\5- SCD Lab\Project\Complete Project\SGS\SGS\obj\Debug\SGS.GUI.WrongForm.resources
+D:\University Files\6th Semester\5- SCD Lab\Project\Complete Project\SGS\SGS\obj\Debug\SGS.Properties.Resources.resources
+D:\University Files\6th Semester\5- SCD Lab\Project\Complete Project\SGS\SGS\obj\Debug\SGS.csproj.GenerateResource.cache
+D:\University Files\6th Semester\5- SCD Lab\Project\Complete Project\SGS\SGS\obj\Debug\SGS.csproj.CoreCompileInputs.cache
+D:\University Files\6th Semester\5- SCD Lab\Project\Complete Project\SGS\SGS\obj\Debug\SGS.exe
+D:\University Files\6th Semester\5- SCD Lab\Project\Complete Project\SGS\SGS\obj\Debug\SGS.pdb

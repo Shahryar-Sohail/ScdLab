@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{FEEBE392-0F95-49D5-B407-9FBE0C9333FE}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>SGS</RootNamespace>
+    <AssemblyName>SGS</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BL\LoginBl.cs" />
+    <Compile Include="BL\StudentMainBl.cs" />
+    <Compile Include="BL\TeacherAssesmetnDetailBl.cs" />
+    <Compile Include="BL\TeacherCalculateGradeBl.cs" />
+    <Compile Include="BL\TeacherMainBl.cs" />
+    <Compile Include="DL\AdminMainDl.cs" />
+    <Compile Include="DL\DBConnection.cs" />
+    <Compile Include="DL\LoginDL.cs" />
+    <Compile Include="DL\StudentMainDl.cs" />
+    <Compile Include="DL\TeacherAssesmentDetailDl.cs" />
+    <Compile Include="DL\TeacherAssmentDl.cs" />
+    <Compile Include="DL\TeacherCalculateGradeDl.cs" />
+    <Compile Include="DL\TeacherMainDl.cs" />
+    <Compile Include="DTO\AdminRegisterCourseDto.cs" />
+    <Compile Include="DTO\AdminRegisterUesrDto.cs" />
+    <Compile Include="DTO\Gradedto.cs" />
+    <Compile Include="DTO\LoginDto.cs" />
+    <Compile Include="DTO\StudentCourseAssessmentDto.cs" />
+    <Compile Include="DTO\StudentCoursesDto.cs" />
+    <Compile Include="DTO\StudentTranscriptDto.cs" />
+    <Compile Include="DTO\TeacherAssesmentDetailDto.cs" />
+    <Compile Include="DTO\TeacherAssesmentDto.cs" />
+    <Compile Include="DTO\TeacherCalculateDto.cs" />
+    <Compile Include="DTO\TeacherMainDto.cs" />
+    <Compile Include="GUI\AdminMainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\AdminMainForm.Designer.cs">
+      <DependentUpon>AdminMainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\AdminRegisterCourse.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\AdminRegisterCourse.Designer.cs">
+      <DependentUpon>AdminRegisterCourse.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\AdminRegisterUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\AdminRegisterUser.Designer.cs">
+      <DependentUpon>AdminRegisterUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\LoginForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\LoginForm.Designer.cs">
+      <DependentUpon>LoginForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\StudentCorsesForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\StudentCorsesForm.Designer.cs">
+      <DependentUpon>StudentCorsesForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\StudentMainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\StudentMainForm.Designer.cs">
+      <DependentUpon>StudentMainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\StudentTranscriiptForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\StudentTranscriiptForm.Designer.cs">
+      <DependentUpon>StudentTranscriiptForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\StudentCourseAssessment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\StudentCourseAssessment.Designer.cs">
+      <DependentUpon>StudentCourseAssessment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\TeacherAssesmentDetailForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\TeacherAssesmentDetailForm.Designer.cs">
+      <DependentUpon>TeacherAssesmentDetailForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\TeacherAssessmentForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\TeacherAssessmentForm.Designer.cs">
+      <DependentUpon>TeacherAssessmentForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\TeacherCalculateGrade.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\TeacherCalculateGrade.Designer.cs">
+      <DependentUpon>TeacherCalculateGrade.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\TeacherMainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\TeacherMainForm.Designer.cs">
+      <DependentUpon>TeacherMainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\WrongForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\WrongForm.Designer.cs">
+      <DependentUpon>WrongForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="GUI\AdminMainForm.resx">
+      <DependentUpon>AdminMainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\AdminRegisterCourse.resx">
+      <DependentUpon>AdminRegisterCourse.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\AdminRegisterUser.resx">
+      <DependentUpon>AdminRegisterUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\LoginForm.resx">
+      <DependentUpon>LoginForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\StudentCorsesForm.resx">
+      <DependentUpon>StudentCorsesForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\StudentCourseAssessment.resx">
+      <DependentUpon>StudentCourseAssessment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\StudentMainForm.resx">
+      <DependentUpon>StudentMainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\StudentTranscriiptForm.resx">
+      <DependentUpon>StudentTranscriiptForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\TeacherAssesmentDetailForm.resx">
+      <DependentUpon>TeacherAssesmentDetailForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\TeacherAssessmentForm.resx">
+      <DependentUpon>TeacherAssessmentForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\TeacherCalculateGrade.resx">
+      <DependentUpon>TeacherCalculateGrade.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\TeacherMainForm.resx">
+      <DependentUpon>TeacherMainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\WrongForm.resx">
+      <DependentUpon>WrongForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Content Include="Database1.mdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Database1_log.ldf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <DependentUpon>Database1.mdf</DependentUpon>
+    </Content>
+    <Content Include="Resourses\book logo.png" />
+    <Content Include="Resourses\Loginimg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.7.2 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
