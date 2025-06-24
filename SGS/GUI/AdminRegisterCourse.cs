@@ -29,10 +29,14 @@ namespace SGS.GUI
             dto.Coursename = textBox2.Text;
             dto.Credithrs = textBox3.Text;
             AdminMainDl.AddCourse(dto);
-            MessageBox.Show("Course Added Successfully", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            DialogResult res = MessageBox.Show("Course Added Successfully", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
             textBox1.Clear();
             textBox2.Clear();
             textBox3.Clear();
+            if(res == DialogResult.OK)
+            {
+                this.Close();
+            }
         }
 
         private void AdminRegisterCourse_Closed(object sender, FormClosedEventArgs e)

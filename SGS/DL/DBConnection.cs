@@ -16,7 +16,7 @@ namespace SGS.DL
 
         public DBConnection()
         {
-            string connectionString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=""D:\University Files\6th Semester\5- SCD Lab\Project\Complete Project\SGS\SGS\Database1.mdf"";Integrated Security=True";
+            string connectionString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=""C:\Users\F2022065230\Desktop\New folder\ScdLab\SGS\Database1.mdf"";Integrated Security=True";
             con = new SqlConnection(connectionString);
         }
         public SqlConnection Con { get => con; }

@@ -35,11 +35,15 @@ namespace SGS.GUI
             dto.Password = textBox3.Text;
             dto.Role = textBox4.Text;
             AdminMainDl.AddUser(dto);
-            MessageBox.Show("User Added Successfully", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            DialogResult res = MessageBox.Show("User Added Successfully", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
             textBox1.Clear();
             textBox2.Clear();
             textBox3.Clear();
             textBox4.Clear();
+            if (res == DialogResult.OK)
+            {
+                this.Close();
+            }
         }
 
         private void AdminRegisterUser_Closed(object sender, FormClosedEventArgs e)

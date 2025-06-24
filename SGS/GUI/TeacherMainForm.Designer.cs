@@ -61,12 +61,12 @@
             this.Coursename,
             this.Section});
             this.dataGridView1.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(58)))), ((int)(((byte)(58)))), ((int)(((byte)(58)))));
-            this.dataGridView1.Location = new System.Drawing.Point(-1, 16);
-            this.dataGridView1.Margin = new System.Windows.Forms.Padding(10, 5, 10, 5);
+            this.dataGridView1.Location = new System.Drawing.Point(-1, 10);
+            this.dataGridView1.Margin = new System.Windows.Forms.Padding(7, 3, 7, 3);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
             this.dataGridView1.RowHeadersWidth = 62;
-            this.dataGridView1.Size = new System.Drawing.Size(777, 474);
+            this.dataGridView1.Size = new System.Drawing.Size(518, 308);
             this.dataGridView1.TabIndex = 0;
             this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
@@ -111,10 +111,9 @@
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold);
             this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(13, 529);
-            this.button1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.button1.Location = new System.Drawing.Point(9, 344);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(363, 70);
+            this.button1.Size = new System.Drawing.Size(242, 46);
             this.button1.TabIndex = 1;
             this.button1.Text = "Add";
             this.button1.UseVisualStyleBackColor = false;
@@ -125,10 +124,9 @@
             this.button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button2.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(241)))), ((int)(((byte)(116)))), ((int)(((byte)(0)))));
-            this.button2.Location = new System.Drawing.Point(401, 529);
-            this.button2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.button2.Location = new System.Drawing.Point(267, 344);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(363, 70);
+            this.button2.Size = new System.Drawing.Size(242, 46);
             this.button2.TabIndex = 2;
             this.button2.Text = "Refresh";
             this.button2.UseVisualStyleBackColor = true;
@@ -140,25 +138,26 @@
             this.label3.Font = new System.Drawing.Font("Calibri", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(241)))), ((int)(((byte)(116)))), ((int)(((byte)(0)))));
             this.label3.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.label3.Location = new System.Drawing.Point(-9, -1);
-            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label3.Location = new System.Drawing.Point(-6, -1);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(812, 19);
+            this.label3.Size = new System.Drawing.Size(541, 12);
             this.label3.TabIndex = 7;
             this.label3.Text = "User Not Found";
             this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // TeacherMainForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
-            this.ClientSize = new System.Drawing.Size(776, 697);
+            this.ClientSize = new System.Drawing.Size(517, 453);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.label3);
-            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.MaximizeBox = false;
+            this.MaximumSize = new System.Drawing.Size(533, 492);
+            this.MinimumSize = new System.Drawing.Size(533, 492);
             this.Name = "TeacherMainForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "TeacherMainForm";

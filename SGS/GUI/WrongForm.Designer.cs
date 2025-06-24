@@ -37,10 +37,9 @@
             this.label3.Font = new System.Drawing.Font("Calibri", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(241)))), ((int)(((byte)(116)))), ((int)(((byte)(0)))));
             this.label3.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.label3.Location = new System.Drawing.Point(35, 267);
-            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label3.Location = new System.Drawing.Point(23, 174);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(329, 65);
+            this.label3.Size = new System.Drawing.Size(219, 42);
             this.label3.TabIndex = 6;
             this.label3.Text = "User Not Found";
             this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -50,23 +49,24 @@
             this.label1.Font = new System.Drawing.Font("Calibri", 80F, System.Drawing.FontStyle.Bold);
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(241)))), ((int)(((byte)(116)))), ((int)(((byte)(0)))));
             this.label1.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.label1.Location = new System.Drawing.Point(35, 61);
-            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.Location = new System.Drawing.Point(23, 40);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(329, 206);
+            this.label1.Size = new System.Drawing.Size(219, 134);
             this.label1.TabIndex = 7;
             this.label1.Text = "404";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // WrongForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
-            this.ClientSize = new System.Drawing.Size(406, 388);
+            this.ClientSize = new System.Drawing.Size(271, 252);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.label3);
-            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.MaximizeBox = false;
+            this.MaximumSize = new System.Drawing.Size(287, 291);
+            this.MinimumSize = new System.Drawing.Size(287, 291);
             this.Name = "WrongForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "WrongForm";

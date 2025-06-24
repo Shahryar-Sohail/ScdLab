@@ -71,3 +71,27 @@ D:\University Files\6th Semester\5- SCD Lab\Project\Complete Project\SGS\SGS\obj
 D:\University Files\6th Semester\5- SCD Lab\Project\Complete Project\SGS\SGS\obj\Debug\SGS.csproj.CoreCompileInputs.cache
 D:\University Files\6th Semester\5- SCD Lab\Project\Complete Project\SGS\SGS\obj\Debug\SGS.exe
 D:\University Files\6th Semester\5- SCD Lab\Project\Complete Project\SGS\SGS\obj\Debug\SGS.pdb
+C:\Users\F2022065230\Desktop\New folder\ScdLab\SGS\bin\Debug\Database1.mdf
+C:\Users\F2022065230\Desktop\New folder\ScdLab\SGS\bin\Debug\Database1_log.ldf
+C:\Users\F2022065230\Desktop\New folder\ScdLab\SGS\bin\Debug\SGS.exe.config
+C:\Users\F2022065230\Desktop\New folder\ScdLab\SGS\bin\Debug\SGS.exe
+C:\Users\F2022065230\Desktop\New folder\ScdLab\SGS\bin\Debug\SGS.pdb
+C:\Users\F2022065230\Desktop\New folder\ScdLab\SGS\obj\Debug\SGS.csproj.AssemblyReference.cache
+C:\Users\F2022065230\Desktop\New folder\ScdLab\SGS\obj\Debug\SGS.GUI.AdminMainForm.resources
+C:\Users\F2022065230\Desktop\New folder\ScdLab\SGS\obj\Debug\SGS.GUI.AdminRegisterCourse.resources
+C:\Users\F2022065230\Desktop\New folder\ScdLab\SGS\obj\Debug\SGS.GUI.AdminRegisterUser.resources
+C:\Users\F2022065230\Desktop\New folder\ScdLab\SGS\obj\Debug\SGS.LoginForm.resources
+C:\Users\F2022065230\Desktop\New folder\ScdLab\SGS\obj\Debug\SGS.GUI.StudentCorsesForm.resources
+C:\Users\F2022065230\Desktop\New folder\ScdLab\SGS\obj\Debug\SGS.GUI.StudentCourseAssessment.resources
+C:\Users\F2022065230\Desktop\New folder\ScdLab\SGS\obj\Debug\SGS.GUI.StudentMainForm.resources
+C:\Users\F2022065230\Desktop\New folder\ScdLab\SGS\obj\Debug\SGS.GUI.StudentTranscriiptForm.resources
+C:\Users\F2022065230\Desktop\New folder\ScdLab\SGS\obj\Debug\SGS.GUI.TeacherAssesmentDetailForm.resources
+C:\Users\F2022065230\Desktop\New folder\ScdLab\SGS\obj\Debug\SGS.GUI.TeacherAssessmentForm.resources
+C:\Users\F2022065230\Desktop\New folder\ScdLab\SGS\obj\Debug\SGS.GUI.TeacherCalculateGrade.resources
+C:\Users\F2022065230\Desktop\New folder\ScdLab\SGS\obj\Debug\SGS.GUI.TeacherMainForm.resources
+C:\Users\F2022065230\Desktop\New folder\ScdLab\SGS\obj\Debug\SGS.GUI.WrongForm.resources
+C:\Users\F2022065230\Desktop\New folder\ScdLab\SGS\obj\Debug\SGS.Properties.Resources.resources
+C:\Users\F2022065230\Desktop\New folder\ScdLab\SGS\obj\Debug\SGS.csproj.GenerateResource.cache
+C:\Users\F2022065230\Desktop\New folder\ScdLab\SGS\obj\Debug\SGS.csproj.CoreCompileInputs.cache
+C:\Users\F2022065230\Desktop\New folder\ScdLab\SGS\obj\Debug\SGS.exe
+C:\Users\F2022065230\Desktop\New folder\ScdLab\SGS\obj\Debug\SGS.pdb

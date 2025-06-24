@@ -50,8 +50,11 @@ namespace SGS.GUI
                 teacherAssesmetnDetailBl.AddObtainedMarks(dto);      
                
             }
-            MessageBox.Show("Marks added successfully!!");
-            
+            DialogResult res = MessageBox.Show("Marks added successfully!!");
+            if (res == DialogResult.OK)
+            {
+                this.Close();
+            }
         }
 
         private void TeacherAssmentDetailForm_Closed(object sender, FormClosedEventArgs e)

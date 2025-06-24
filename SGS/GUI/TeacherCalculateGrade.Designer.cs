@@ -45,10 +45,9 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Calibri", 18F, System.Drawing.FontStyle.Bold);
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(241)))), ((int)(((byte)(116)))), ((int)(((byte)(0)))));
-            this.label1.Location = new System.Drawing.Point(49, 181);
-            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.Location = new System.Drawing.Point(33, 118);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(110, 44);
+            this.label1.Size = new System.Drawing.Size(74, 29);
             this.label1.TabIndex = 0;
             this.label1.Text = "label1";
             // 
@@ -57,10 +56,9 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Calibri", 18F, System.Drawing.FontStyle.Bold);
             this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(241)))), ((int)(((byte)(116)))), ((int)(((byte)(0)))));
-            this.label2.Location = new System.Drawing.Point(423, 181);
-            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label2.Location = new System.Drawing.Point(282, 118);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(110, 44);
+            this.label2.Size = new System.Drawing.Size(74, 29);
             this.label2.TabIndex = 1;
             this.label2.Text = "label2";
             // 
@@ -86,11 +84,10 @@
             dataGridViewCellStyle2.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(241)))), ((int)(((byte)(116)))), ((int)(((byte)(0)))));
             dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
             this.dataGridView1.DefaultCellStyle = dataGridViewCellStyle2;
-            this.dataGridView1.Location = new System.Drawing.Point(13, 240);
-            this.dataGridView1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.dataGridView1.Location = new System.Drawing.Point(9, 156);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 62;
-            this.dataGridView1.Size = new System.Drawing.Size(928, 353);
+            this.dataGridView1.Size = new System.Drawing.Size(619, 229);
             this.dataGridView1.TabIndex = 2;
             // 
             // button1
@@ -99,10 +96,9 @@
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Font = new System.Drawing.Font("Calibri", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(388, 613);
-            this.button1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.button1.Location = new System.Drawing.Point(259, 398);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(186, 59);
+            this.button1.Size = new System.Drawing.Size(124, 38);
             this.button1.TabIndex = 3;
             this.button1.Text = "Submit";
             this.button1.UseVisualStyleBackColor = false;
@@ -114,10 +110,9 @@
             this.label3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(228)))), ((int)(((byte)(82)))), ((int)(((byte)(0)))));
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(228)))), ((int)(((byte)(82)))), ((int)(((byte)(0)))));
-            this.label3.Location = new System.Drawing.Point(-161, -2);
-            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label3.Location = new System.Drawing.Point(-107, -1);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(1220, 37);
+            this.label3.Size = new System.Drawing.Size(813, 24);
             this.label3.TabIndex = 5;
             this.label3.Text = "Transcript";
             // 
@@ -127,10 +122,9 @@
             this.label4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(241)))), ((int)(((byte)(116)))), ((int)(((byte)(0)))));
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(241)))), ((int)(((byte)(116)))), ((int)(((byte)(0)))));
-            this.label4.Location = new System.Drawing.Point(-152, 35);
-            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label4.Location = new System.Drawing.Point(-101, 23);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(1155, 47);
+            this.label4.Size = new System.Drawing.Size(770, 31);
             this.label4.TabIndex = 4;
             this.label4.Text = "Transcript";
             // 
@@ -139,19 +133,18 @@
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Calibri", 26F, System.Drawing.FontStyle.Bold);
             this.label5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(241)))), ((int)(((byte)(116)))), ((int)(((byte)(0)))));
-            this.label5.Location = new System.Drawing.Point(377, 82);
-            this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label5.Location = new System.Drawing.Point(251, 53);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(197, 64);
+            this.label5.Size = new System.Drawing.Size(132, 42);
             this.label5.TabIndex = 6;
             this.label5.Text = "Grading";
             // 
             // TeacherCalculateGrade
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
-            this.ClientSize = new System.Drawing.Size(955, 695);
+            this.ClientSize = new System.Drawing.Size(637, 452);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label4);
@@ -159,7 +152,9 @@
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.MaximizeBox = false;
+            this.MaximumSize = new System.Drawing.Size(653, 491);
+            this.MinimumSize = new System.Drawing.Size(653, 491);
             this.Name = "TeacherCalculateGrade";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "TeacherCalculateGrade";
